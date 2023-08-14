@@ -1,0 +1,12 @@
+@import "./config", "./variables", "./left-section", "./responsive";
+
+body {
+  background-color: $primary-dark-blue;
+}
+
+main {
+  background-color: $second-dark-blue;
+  border-radius: 10px;
+  max-width: 1440px;
+  min-width: 375px;
+}

@@ -1,0 +1,64 @@
+@media screen and (max-width: 1200px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    margin: 4rem 3rem;
+    width: 70%;
+  }
+
+  img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    width: 100%;
+  }
+
+  .stats {
+    gap: 10rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+  section {
+    width: 50%;
+    padding: 4rem 0rem;
+  }
+
+  p {
+    width: 100%;
+    margin-bottom: 1.8rem;
+  }
+
+  .stats {
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+    margin-bottom: 1.8rem;
+  }
+
+  section {
+    padding: 3rem 0rem;
+  }
+
+  .stats {
+    gap: 2rem;
+  }
+}

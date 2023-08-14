@@ -1,0 +1,40 @@
+section {
+  padding: 5.2rem 4.4rem;
+}
+
+h1 {
+  width: 464px;
+  color: $white;
+  font-size: 2.3rem;
+  font-family: "Inter", sans-serif;
+  span {
+    color: $violet;
+  }
+}
+
+p {
+  color: $paragraph-white;
+  margin-bottom: 5.2rem;
+  width: 70%;
+}
+
+.stats {
+  gap: 5.3rem;
+  h3 {
+    color: $white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+  }
+
+  span {
+    color: $stats-white;
+    font-family: "Lexend Reca", sans-serif;
+    font-size: 0.8rem;
+  }
+}
+
+img {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 50%;
+}
